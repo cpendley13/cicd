@@ -24,7 +24,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: cpendley13/webapp:v2
+          tags: cpendley13/webapp:v3
 
       - name: update kubeconfig
         run: |
